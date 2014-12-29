@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApplication3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="522" Width="834.485" Background="BlueViolet">
+    <Grid Margin="0,0,0,4">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="90,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="583" FontFamily="Microsoft YaHei" FontWeight="SemiBold" FontSize="35"><Run Language="zh-cn" Text="顶顶顶"/></TextBlock>
+        <Image HorizontalAlignment="Left" Height="229" Margin="90,140,0,0" VerticalAlignment="Top" Width="663"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="678,71,0,0" VerticalAlignment="Top" Width="75" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold" Click="Button_Click_1" Height="25"/>
+        <Button Content="type" HorizontalAlignment="Left" Margin="678,105,0,0" VerticalAlignment="Top" Width="75" Height="25" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="23,80,0,0" VerticalAlignment="Top" Width="50" Height="48" Foreground="LawnGreen" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="23,207,0,0" VerticalAlignment="Top" Width="50" Height="48" Foreground="Red" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold"/>
+        <Button Content="Pause" HorizontalAlignment="Left" Margin="23,144,0,0" VerticalAlignment="Top" Width="50" Height="48" Foreground="White" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,392,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="87" Width="806" FontSize="15" Background="AntiqueWhite" FontWeight="Bold"/>
+        <Button Content="ReadF" HorizontalAlignment="Left" Margin="23,322,0,0" VerticalAlignment="Top" Width="50" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" Click="Button_Click_3" Height="47" FontWeight="Bold"/>
+        <Button Content="WriteF" HorizontalAlignment="Left" Margin="767,322,0,0" VerticalAlignment="Top" Width="49" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" Click="Button_Click_2" Height="47" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
