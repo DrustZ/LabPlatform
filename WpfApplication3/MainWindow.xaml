@@ -8,12 +8,14 @@
             <RowDefinition Height="0*"/>
         </Grid.RowDefinitions>
         <TextBlock Name="DisplayTest" HorizontalAlignment="Left" Margin="90,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="583" FontFamily="Microsoft YaHei" FontWeight="SemiBold" FontSize="35"><Run Language="zh-cn" Text="顶顶顶"/></TextBlock>
-        <Image HorizontalAlignment="Left" Height="229" Margin="90,140,0,0" VerticalAlignment="Top" Width="663"/>
+        <Image Name="keyBoard" HorizontalAlignment="Left" Height="229" Margin="90,140,0,0" VerticalAlignment="Top" Width="663"/>
         <Button Name="next" Content="Next" HorizontalAlignment="Left" Margin="678,71,0,0" VerticalAlignment="Top" Width="75" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold" Height="25" Click="next_Click"/>
-        <Button Name="type" Content="type" HorizontalAlignment="Left" Margin="678,105,0,0" VerticalAlignment="Top" Width="75" Height="25" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold"/>
-        <Button Name="start" Content="Start" HorizontalAlignment="Left" Margin="23,80,0,0" VerticalAlignment="Top" Width="50" Height="48" Foreground="LawnGreen" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold" Click="Button_Click_1"/>
-        <Button Name="stop" Content="Stop" HorizontalAlignment="Left" Margin="23,140,0,0" VerticalAlignment="Top" Width="50" Height="48" Foreground="Red" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold" Click="stop_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="23,392,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="87" Width="784" FontSize="15" Background="AntiqueWhite" FontWeight="Bold"/>
+        <Button Name="type" Content="type" HorizontalAlignment="Left" Margin="678,105,0,0" VerticalAlignment="Top" Width="75" Height="25" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold" Click="type_Click"/>
+        <Button Name="start" Content="Start" HorizontalAlignment="Left" Margin="23,216,0,0" VerticalAlignment="Top" Width="50" Height="48" Foreground="LawnGreen" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold" Click="Button_Click_1"/>
+        <Button Name="stop" Content="Stop" HorizontalAlignment="Left" Margin="23,269,0,0" VerticalAlignment="Top" Width="50" Height="48" Foreground="Red" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" FontWeight="Bold" Click="stop_Click"/>
+        <TextBlock Name="infoShow" HorizontalAlignment="Left" Margin="23,392,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="87" Width="784" FontSize="15" Background="AntiqueWhite" FontWeight="Bold"><Run Text="TextBlock"/><InlineUIContainer>
+        		<Image Height="100" Width="100"/>
+        	</InlineUIContainer></TextBlock>
         <Button Content="ReadF" HorizontalAlignment="Left" Margin="23,322,0,0" VerticalAlignment="Top" Width="50" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" Click="Button_Click_3" Height="47" FontWeight="Bold"/>
         <Button Content="WriteF" HorizontalAlignment="Left" Margin="758,322,0,0" VerticalAlignment="Top" Width="49" Background="BlueViolet" BorderThickness="3" BorderBrush="Black" Click="Button_Click_2" Height="47" FontWeight="Bold"/>
 

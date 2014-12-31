@@ -13,7 +13,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Collections.Generic;
 
 namespace WpfApplication3
 {
@@ -38,6 +37,7 @@ namespace WpfApplication3
             stop.IsEnabled = false;
             next.IsEnabled = false;
             type.IsEnabled = false;
+            keyBoard.Source = new BitmapImage(new Uri(@"C:\\Users\\s\\Pictures\\keyboard.jpg"));
         }
 
         public bool startTest()
@@ -129,6 +129,20 @@ namespace WpfApplication3
             }
         }
 
+        public void getInfo(Dictionary<string, string> infomation)
+        {
+            using (StreamWriter sw = new StreamWriter(outputfile,append:true))
+            {
+                foreach (KeyValuePair<string, string> kvp in infomation)
+                {
+                    sw.Write(kvp.Key + " : " + kvp.Value + " ");
+                    infoShow.Text += kvp.Key + " ： " + kvp.Value + " ";
+                }
+                DateTime now = DateTime.Now;
+                sw.Write(now.Hour.ToString() + ":" + now.Minute.ToString() + ":" + now.Second.ToString() + " ");
+            }
+        }
+
         private void Button_Click_1(object sender, RoutedEventArgs e)//start 操作，将读入的句子依次显示
         {
             if (startTest())
@@ -137,6 +151,7 @@ namespace WpfApplication3
                 start.IsEnabled = false;
                 stop.IsEnabled = true;
                 next.IsEnabled = true;
+                type.IsEnabled = true;
                 string nextText = showNext();
                 if (nextText != "")
                     DisplayTest.Text = nextText;
@@ -163,6 +178,7 @@ namespace WpfApplication3
                 next.IsEnabled = false;
                 start.IsEnabled = true;
                 stop.IsEnabled = false;
+                type.IsEnabled = false;
             }
         }
 
@@ -174,7 +190,16 @@ namespace WpfApplication3
                 stop.IsEnabled = false;
                 start.IsEnabled = true;
                 next.IsEnabled = false;
+                type.IsEnabled = false;
             }
+        }
+
+        private void type_Click(object sender, RoutedEventArgs e)
+        {
+            Dictionary<string, string> infomation = new Dictionary<string, string>();
+            infomation.Add("test", "test");
+            infomation.Add("test2", "test2");
+            getInfo(infomation);
         }
 
         
