@@ -11,3 +11,22 @@ C:\Users\s\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3
 C:\Users\s\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.pdb
 C:\Users\s\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.exe
 C:\Users\s\Documents\Visual Studio 2012\Projects\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.pdb
+F:\LPMT\LabPlatform\WpfApplication3\bin\Debug\WpfApplication3.exe.config
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\WpfApplication3.exe
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\WpfApplication3.pdb
+F:\LPMT\LabPlatform\WpfApplication3\bin\Debug\WpfApplication3.exe
+F:\LPMT\LabPlatform\WpfApplication3\bin\Debug\WpfApplication3.pdb
+F:\LPMT\LabPlatform\WpfApplication3\bin\Debug\LeapCSharp.NET4.0.dll
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\LabPlatform.csprojResolveAssemblyReference.cache
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\MainWindow.baml
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\MainWindow.g.cs
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\App.g.cs
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\WpfApplication3_MarkupCompile.cache
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\WpfApplication3.g.resources
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\WpfApplication3.Properties.Resources.resources
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\LabPlatform.csproj.GenerateResource.Cache
+F:\LPMT\LabPlatform\WpfApplication3\obj\Debug\WpfApplication3_MarkupCompile.lref
+F:\LPMT\LabPlatform\WpfApplication3\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+F:\LPMT\LabPlatform\WpfApplication3\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+F:\LPMT\LabPlatform\WpfApplication3\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+F:\LPMT\LabPlatform\WpfApplication3\bin\Debug\WPFToolkit.dll
