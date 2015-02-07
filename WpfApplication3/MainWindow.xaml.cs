@@ -316,7 +316,12 @@ namespace WpfApplication3
 
                     for (int i = 0; i < 50; ++i)
                     {
-                        float coor = tempValue[FingerToShow][CoordToShow][i].y;
+                        float coor = 0;
+                        if (CoordToShow == 0)
+                            coor = tempValue[FingerToShow][0][i].x;
+                        else if (CoordToShow == 1)
+                            coor = tempValue[FingerToShow][0][i].y;
+                        else coor = tempValue[FingerToShow][0][i].z;
                         dataSourceList[0].Add(new KeyValuePair<int, float>(datanow+i-49, coor));
                     }
                         
@@ -328,7 +333,12 @@ namespace WpfApplication3
 
                     for (int i = 0; i < 50; ++i)
                     {
-                        float coor = tempValue[FingerToShow][CoordToShow][i].y;
+                        float coor = 0;
+                        if (CoordToShow == 0)
+                            coor = tempValue[FingerToShow][0][i].x;
+                        else if (CoordToShow == 1)
+                            coor = tempValue[FingerToShow][0][i].y;
+                        else coor = tempValue[FingerToShow][0][i].z;
                         dataSourceList[1].Add(new KeyValuePair<int, float>(datanow + i - 49, coor));
                     }
                     LoadLineChartData();
@@ -366,7 +376,7 @@ namespace WpfApplication3
 
 
                 ++datanow;
-                if (datanow == 10000)
+                if (datanow == 5000)
                 {
                     datanow = 0;
                     dataSourceList[0].Clear();

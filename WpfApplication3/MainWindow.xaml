@@ -50,17 +50,17 @@
             
         </chartingToolkit:Chart>
         <ComboBox Name="whichFinger" Margin="0,0,95,222" HorizontalAlignment="Right" Width="80" Height="20" VerticalAlignment="Bottom" SelectionChanged="whichFinger_SelectionChanged">
-            <ComboBoxItem Content="大拇指尖" Height="100" Width="100"/>
-            <ComboBoxItem Content="食指尖" Height="100" Width="100"/>
-            <ComboBoxItem Content="中指尖" Height="100" Width="100"/>
-            <ComboBoxItem Content="无名指尖" Height="100" Width="100"/>
-            <ComboBoxItem Content="小拇指尖" Height="100" Width="100"/>
-            <ComboBoxItem Content="掌心" Height="100" Width="100"/>
+            <ComboBoxItem Content="大拇指尖" Height="20" Width="100"/>
+            <ComboBoxItem Content="食指尖" Height="20" Width="100"/>
+            <ComboBoxItem Content="中指尖" Height="20" Width="100"/>
+            <ComboBoxItem Content="无名指尖" Height="20" Width="100"/>
+            <ComboBoxItem Content="小拇指尖" Height="20" Width="100"/>
+            <ComboBoxItem Content="掌心" Height="10" Width="100"/>
         </ComboBox>
         <ComboBox Name="whichiCoordinate" Margin="0,0,95,179" HorizontalAlignment="Right" Width="80" Height="20" VerticalAlignment="Bottom" SelectionChanged="whichiCoordinate_SelectionChanged">
-            <ComboBoxItem Content="x" Height="100" Width="100"/>
-            <ComboBoxItem Content="y" Height="100" Width="100"/>
-            <ComboBoxItem Content="z" Height="100" Width="100"/>
+            <ComboBoxItem Content="x" Height="20" Width="100"/>
+            <ComboBoxItem Content="y" Height="20" Width="100"/>
+            <ComboBoxItem Content="z" Height="20" Width="100"/>
         </ComboBox>
     </Grid>
 </Window>
