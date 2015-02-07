@@ -69,7 +69,7 @@ namespace WpfApplication3
                 stop.IsEnabled = false;
                 next.IsEnabled = false;
                 type.IsEnabled = false;
-                keyBoard.Source = new BitmapImage(new Uri(@"..\\..\\keyboard.jpg"));
+                keyBoard.Source = new BitmapImage(new Uri(System.AppDomain.CurrentDomain.SetupInformation.ApplicationBase + @"../../keyboard.jpg"));
 
                 this.controller = new Controller();
                 this.listener = new LeapEventListener(this);
